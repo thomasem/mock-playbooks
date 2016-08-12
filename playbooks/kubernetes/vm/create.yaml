@@ -1,0 +1,5 @@
+- name: "create"
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - debug: msg="create all the things!"
